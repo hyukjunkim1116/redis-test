@@ -28,6 +28,6 @@ spring:
     activate:
       on-profile: prod
   datasource:
-    url: jdbc:mysql://mydb.c0m4oycvnxbi.ap-northeast-2.rds.amazonaws.com:3306/mydb
+    url: jdbc:mysql://redis-test.c0m4oycvnxbi.ap-northeast-2.rds.amazonaws.com:3306/mydb
     username: admin
     password: password
