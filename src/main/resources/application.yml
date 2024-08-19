@@ -29,5 +29,10 @@ spring:
       on-profile: prod
   datasource:
     url: jdbc:mysql://redis-test.c0m4oycvnxbi.ap-northeast-2.rds.amazonaws.com:3306/mydb
+    driver-class-name: com.mysql.cj.jdbc.Driver
     username: admin
     password: password
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
